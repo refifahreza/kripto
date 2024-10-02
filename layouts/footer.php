@@ -67,6 +67,8 @@
     <script src="assets/js/cipher/vigenere.js"></script>
 <?php elseif (basename($_SERVER['PHP_SELF']) == 'playfair.php'): ?>
     <script src="assets/js/cipher/playfair.js"></script>
+<?php elseif (basename($_SERVER['PHP_SELF']) == 'hill.php'): ?>
+    <script src="assets/js/cipher/hill.js"></script>
 <?php endif; ?>
 </body>
 
